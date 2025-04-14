@@ -8,7 +8,7 @@ st.set_page_config(
 
 # Header Section
 st.markdown("<h1 style='text-align: center'>ReliAuto Core</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center'>Initial Release of the World's Most Reliable Automation Framework</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center'>Initial Release of the Most Reliable Automation Framework</h3>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Main Content
@@ -16,10 +16,10 @@ st.markdown("""
 ## **Effortless Automation, Guaranteed Reliability**
 
 **Foundational Features:**
+- Cross-platform compatibility
 - One-click configuration setup
 - Self-validating execution system
 - Plain English interface
-- macOS-optimized precision engine
 - Built-in reliability safeguards
 """)
 
@@ -59,29 +59,60 @@ st.markdown("""
 - Setup Guide (PDF + Video)
 """)
 
-DOWNLOAD_URL = "https://1drv.ms/u/c/f4598138ab76194c/EZOtyBZorDNFjnwjCODpUVQBsgJSW-y-FxIM9-eQtAqpQg?e=N0H0u0"
+# Updated download URLs
+MACOS_DOWNLOAD_URL = "https://1drv.ms/u/c/f4598138ab76194c/EZOtyBZorDNFjnwjCODpUVQBsgJSW-y-FxIM9-eQtAqpQg?e=N0H0u0"
+WINDOWS_DOWNLOAD_URL = "https://1drv.ms/u/c/f4598138ab76194c/EaN3mFLYcoZNleThW7aUuSUBc6eQMgM4SmFNva1-OY-7mw?e=Jqaccj"
 
-st.markdown(f"""
-<div style="text-align: center">
-<a href="{DOWNLOAD_URL}">
-    <button style="
-        background: #1A5BC4;
-        color: white;
-        padding: 18px 32px;
-        border: none;
-        border-radius: 8px;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
-        margin: 20px auto;
-        display: block;">
-        Download Reliable Automation Suite (v1.0)
-    </button>
-</a>
-</div>
+# Create two columns for download buttons
+dl_col1, dl_col2 = st.columns(2)
 
+with dl_col1:
+    st.markdown(f"""
+    <div style="text-align: center">
+    <a href="{MACOS_DOWNLOAD_URL}">
+        <button style="
+            background: #1A5BC4;
+            color: white;
+            padding: 18px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            width: 100%;">
+            Download for macOS (v1.0)
+        </button>
+    </a>
+    </div>
+    """, unsafe_allow_html=True)
+
+with dl_col2:
+    st.markdown(f"""
+    <div style="text-align: center">
+    <a href="{WINDOWS_DOWNLOAD_URL}">
+        <button style="
+            background: #107C10;
+            color: white;
+            padding: 18px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            width: 100%;">
+            Download for Windows (v1.0)
+        </button>
+    </a>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("""
 **Quick Start Requirements:**  
-✓ macOS 12+ • 4GB RAM • 500MB storage  
+✓ macOS 12+ or Windows 10+ • 4GB RAM • 500MB storage  
 ✓ Internet connection for auto-configuration  
 ✓ Basic English understanding
 """, unsafe_allow_html=True)
