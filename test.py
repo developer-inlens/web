@@ -8,7 +8,7 @@ st.set_page_config(
 
 # Header Section
 st.markdown("<h1 style='text-align: center'>Project - Test Automation Suite</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center'>Help us build the most easiest and reliable automation suite</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center'>Help us build the easiest and most reliable automation suite</h3>", unsafe_allow_html=True)
 
 # Workflow Section
 st.markdown("""
