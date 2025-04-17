@@ -18,10 +18,10 @@ st.markdown("""
    📥 Download → Launch Runner
 
 2. **Configure Automation**  
-   🖥️ Launch UI → Create browser workflows using visual designer
+   🖥️ Launch UI and type in your browser workflows
 
 3. **Save Configuration**  
-   💾 Name your workflow → Validate → Save (.tui format)
+   💾 Name your workflow and save (.tui format)
 
 4. **Schedule Execution**  
    ⏲️ From Terminal: `schedule /path/to/<your config file>.tui`
